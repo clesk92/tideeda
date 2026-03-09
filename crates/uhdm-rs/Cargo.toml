@@ -1,0 +1,11 @@
+[package]
+name = "uhdm-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+capnp = "0.19"
+thiserror = "1.0"
+
+[build-dependencies]
+capnpc = "0.19"

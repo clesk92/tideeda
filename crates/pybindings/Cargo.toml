@@ -1,0 +1,15 @@
+[package]
+name = "pybindings"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "tideeda"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.20.0", features = ["extension-module"] }
+uhdm-rs = { path = "../uhdm-rs" }
+hir = { path = "../hir" }
+bitblast = { path = "../bitblast" }
+export = { path = "../export" }

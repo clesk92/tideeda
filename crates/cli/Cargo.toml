@@ -1,0 +1,12 @@
+[package]
+name = "tideeda-cli"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "tideeda"
+path = "src/main.rs"
+
+[dependencies]
+uhdm-rs = { path = "../uhdm-rs" }
+hir = { path = "../hir" }
