@@ -1,8 +1,0 @@
-[package]
-name = "hir"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-uhdm-rs = { path = "../uhdm-rs" }
-thiserror = "1.0"

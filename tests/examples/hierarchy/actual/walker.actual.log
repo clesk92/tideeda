@@ -1,0 +1,140 @@
+=== Designs: 1 ===
+  Design: work@hierarchy_top (pool_idx=1, uhdm_id=0)
+    topModules: 0
+    allModules: 0
+    typespecs: 0
+
+=== ModuleInsts: 4 ===
+  ModuleInst: @@BAD_SYMBOL@@ (pool_idx=1, uhdm_id=209)
+  ModuleInst: @@BAD_SYMBOL@@ (pool_idx=2, uhdm_id=234)
+  ModuleInst: work@hierarchy_top (pool_idx=3, uhdm_id=261)
+  ModuleInst: u_sub (pool_idx=4, uhdm_id=266)
+
+=== Ports: 18 ===
+  Port: clk (pool_idx=1, uhdm_id=2)
+  Port: rst_n (pool_idx=2, uhdm_id=4)
+  Port: data_in (pool_idx=3, uhdm_id=6)
+  Port: data_out (pool_idx=4, uhdm_id=8)
+  Port: clk (pool_idx=5, uhdm_id=210)
+  Port: rst_n (pool_idx=6, uhdm_id=213)
+  Port: data_out (pool_idx=7, uhdm_id=216)
+  Port: clk (pool_idx=8, uhdm_id=235)
+  Port: rst_n (pool_idx=9, uhdm_id=238)
+  Port: data_in (pool_idx=10, uhdm_id=241)
+  Port: data_out (pool_idx=11, uhdm_id=247)
+  Port: clk (pool_idx=12, uhdm_id=307)
+  Port: rst_n (pool_idx=13, uhdm_id=310)
+  Port: data_out (pool_idx=14, uhdm_id=313)
+  Port: clk (pool_idx=15, uhdm_id=318)
+  Port: rst_n (pool_idx=16, uhdm_id=322)
+  Port: data_in (pool_idx=17, uhdm_id=326)
+  Port: data_out (pool_idx=18, uhdm_id=330)
+
+=== Logicnets: 16 ===
+  Net: (pool_idx=1)
+  Net: (pool_idx=2)
+  Net: (pool_idx=3)
+  Net: (pool_idx=4)
+  Net: (pool_idx=5)
+  Net: (pool_idx=6)
+  Net: (pool_idx=7)
+  Net: (pool_idx=8)
+  Net: (pool_idx=9)
+  Net: (pool_idx=10)
+  Net: (pool_idx=11)
+  Net: (pool_idx=12)
+  Net: (pool_idx=13)
+  Net: (pool_idx=14)
+  Net: (pool_idx=15)
+  Net: (pool_idx=16)
+
+=== Constants: 29 ===
+  Constant: (pool_idx=1)
+  Constant: (pool_idx=2)
+  Constant: (pool_idx=3)
+  Constant: (pool_idx=4)
+  Constant: (pool_idx=5)
+  Constant: (pool_idx=6)
+  Constant: (pool_idx=7)
+  Constant: (pool_idx=8)
+  Constant: (pool_idx=9)
+  Constant: (pool_idx=10)
+  Constant: (pool_idx=11)
+  Constant: (pool_idx=12)
+  Constant: (pool_idx=13)
+  Constant: (pool_idx=14)
+  Constant: (pool_idx=15)
+  Constant: (pool_idx=16)
+  Constant: (pool_idx=17)
+  Constant: (pool_idx=18)
+  Constant: (pool_idx=19)
+  Constant: (pool_idx=20)
+  Constant: (pool_idx=21)
+  Constant: (pool_idx=22)
+  Constant: (pool_idx=23)
+  Constant: (pool_idx=24)
+  Constant: (pool_idx=25)
+  Constant: (pool_idx=26)
+  Constant: (pool_idx=27)
+  Constant: (pool_idx=28)
+  Constant: (pool_idx=29)
+
+=== Operations: 8 ===
+  Operation: (pool_idx=1)
+  Operation: (pool_idx=2)
+  Operation: (pool_idx=3)
+  Operation: (pool_idx=4)
+  Operation: (pool_idx=5)
+  Operation: (pool_idx=6)
+  Operation: (pool_idx=7)
+  Operation: (pool_idx=8)
+
+=== ContAssigns: 3 ===
+  ContAssign: idx=1, id=11, lhs=internal_data, rhs=8'hAB
+  ContAssign: idx=2, id=263, lhs=internal_data, rhs=8'hAB
+  ContAssign: idx=3, id=316, lhs=internal_data, rhs=8'hAB
+
+=== Parameters: 0 ===
+
+=== Refobjs: 37 ===
+  RefObj: clk (pool_idx=1)
+  RefObj: rst_n (pool_idx=2)
+  RefObj: internal_data (pool_idx=3)
+  RefObj: data_out (pool_idx=4)
+  RefObj: internal_data (pool_idx=5)
+  RefObj: clk (pool_idx=6)
+  RefObj: rst_n (pool_idx=7)
+  RefObj: rst_n (pool_idx=8)
+  RefObj: data_out (pool_idx=9)
+  RefObj: data_out (pool_idx=10)
+  RefObj: data_in (pool_idx=11)
+  RefObj: clk (pool_idx=12)
+  RefObj: rst_n (pool_idx=13)
+  RefObj: data_out (pool_idx=14)
+  RefObj: clk (pool_idx=15)
+  RefObj: rst_n (pool_idx=16)
+  RefObj: data_in (pool_idx=17)
+  RefObj: data_out (pool_idx=18)
+  RefObj: internal_data (pool_idx=19)
+  RefObj: clk (pool_idx=20)
+  RefObj: rst_n (pool_idx=21)
+  RefObj: data_out (pool_idx=22)
+  RefObj: internal_data (pool_idx=23)
+  RefObj: clk (pool_idx=24)
+  RefObj: clk (pool_idx=25)
+  RefObj: rst_n (pool_idx=26)
+  RefObj: rst_n (pool_idx=27)
+  RefObj: internal_data (pool_idx=28)
+  RefObj: data_in (pool_idx=29)
+  RefObj: data_out (pool_idx=30)
+  RefObj: data_out (pool_idx=31)
+  RefObj: clk (pool_idx=32)
+  RefObj: rst_n (pool_idx=33)
+  RefObj: rst_n (pool_idx=34)
+  RefObj: data_out (pool_idx=35)
+  RefObj: data_in (pool_idx=36)
+  RefObj: data_out (pool_idx=37)
+
+=== Always: 2 ===
+  Always: idx=1, id=13, stmt=uhdmevent_control
+  Always: idx=2, id=334, stmt=uhdmevent_control

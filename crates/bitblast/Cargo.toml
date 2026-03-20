@@ -1,8 +1,0 @@
-[package]
-name = "bitblast"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-hir = { path = "../hir" }
-thiserror = "1.0"

@@ -1,0 +1,33 @@
+design work@ibex_csr
+  module ibex_csr #(
+  ) (
+    input wire clk_i,
+    input wire rst_ni,
+    input wire wr_data_i,
+    input wire wr_en_i,
+    output wire rd_data_o,
+    output wire rd_error_o,
+  );
+    wire  clk_i;
+    wire  rst_ni;
+    wire  wr_data_i;
+    wire  wr_en_i;
+    wire  rd_data_o;
+    wire  rd_error_o;
+    wire  rdata_q;
+    assign rd_data_o = rdata_q;
+    always @((posedge clk_i) or (negedge rst_ni)) begin
+      begin
+        if (!rst_ni) begin
+          begin
+            rdata_q <= ResetValue;
+          end
+          if (wr_en_i) begin
+            begin
+              rdata_q <= wr_data_i;
+            end
+          end
+      end
+    end
+  endmodule
+  

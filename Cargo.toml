@@ -1,11 +1,6 @@
 [workspace]
 members = [
     "crates/uhdm-rs",
-    "crates/hir",
-    "crates/bitblast",
-    "crates/export",
-    "crates/pybindings",
     "crates/cli",
 ]
 resolver = "2"
-
