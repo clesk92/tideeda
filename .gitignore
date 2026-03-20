@@ -17,3 +17,6 @@ slpp_all/
 
 # External reference data (large, not version controlled)
 /reference/
+
+# Test runtime files (generated during test execution)
+**/actual/
